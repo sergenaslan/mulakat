@@ -1,0 +1,32 @@
+{
+	"cart":[
+		{
+			"url":"#",
+			"image":"./images/saatbir.jpg",
+			"name" :"Apple Apple Watch Series 3 (GPS)",
+			"seller":"Serdar Büyüktemiz",
+			"isAvailable ": true,
+			"isEligible":true,
+		}
+			{
+			"url":"#",
+			"image":"./images/saatiki.jpg",
+			"name" :"Apple Watch Hermès Series 3 Singl",
+			"seller":"Sergen aslan",
+			"isAvailable ": true,
+			"isEligible":true,
+		}
+	],
+	"saved":[  
+		{
+			"url":"#",
+			"image":"./images/saatuc.jpg",
+			"name" :"Apple Watch Hermès Series 3 Singl",
+			"seller":"Fatih Acet",
+			"isAvailable ": true,
+			"isEligible":true,
+
+		}
+	]
+
+}
