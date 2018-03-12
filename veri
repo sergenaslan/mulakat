@@ -1,0 +1,52 @@
+
+	<h2>shoping cart</h2>
+	<div class="cart">
+		<div class="item">
+			<div class="image">
+				<a href="#">
+					<img src="./images/saatbir.jpg">
+				</a>
+			</div>
+			<div class="info">
+				<h4>Apple Apple Watch Series 3 (GPS)</h4>
+				<p class="seller">by Serdar Büyüktemiz</p>
+				<p class="status available">ın stock</p>
+				<p class="shipping">Eligible for free shipping &FREE returns</p>
+				<a href="#">Delete</a>
+				<a href="#" class="secondary">save for later</a>
+			</div>
+		</div>
+		<div class="item">
+			<div class="image">
+				<a href="#">
+					<img src="images/saatiki.jpg">
+				</a>
+			</div>
+			<div class="info">
+				<h4>Apple Watch Hermès Series 3 Single</h4>
+				<p class="seller">by Sergen aslan</p>
+				<p class="status available">ın stock</p>
+				<p class="shipping">Eligible for free shipping &FREE returns</p>
+				<a href="#">Delete</a>
+				<a href="#" class="secondary">save for later</a>
+			</div>
+		</div>
+	</div>
+	<h2 class="saved-header">saved for later (1 item)</h2>
+	<div class="cart">
+		<div class="item">
+			<div class="image">
+				<a href="#">
+					<img src="images/saatuc.jpg">
+				</a>
+			</div>
+			<div class="info">
+				<h4>Use Digital Touch on your Apple Wat</h4>
+				<p class="seller">by Fatih Acet</p>
+				<p class="status available">ın stock</p>
+				<p class="shipping">Eligible for free shipping &FREE returns</p>
+				<a href="#">Delete</a>
+				<a href="#" class="secondary">Move to later</a>
+			</div>
+		</div>
+	

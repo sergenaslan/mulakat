@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AMAZON Benzeri alışveriş sepeti</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stiller/style.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.15/dist/vue.js"></script>
+
+</head>
+<body>
+	<div id="app">
+		<p v-if="isLoading">yukleniyor</p>
+		<h2>shopping cart</h2>
+		<div class="cart">
+			<div class="item" v-for="(item, index) in cart">
+				<div class="image"> 
+					<a href="item.url">
+						<img v-bind:src="item.image">
+					</a>
+				</div>
+
+				<div class="item">
+					<h4> {{item.name}} </h4>
+					<p class="seller">by {{item.seller}}</p>
+					<p class="status available" v-if="item.isAvailable">ın stock</p>
+					<p class="shipping" v-if="item.isEligible">Eligible for free shipping &FREE returns</p>
+					<a href="#" v-on:click="removeFromCard(index)">Delete</a>
+					<a href="#" class="secondary" v-on:click="saveForLater(index)">save for later</a>
+				</div>
+			</div>
+		</div>
+		<h2>saved for later  ({{saved.length}} item)</h2>
+		<div class="cart">
+			<div class="item" v-for="(item, index) in saved">
+				<div class="image"> 
+					<a href="item.url">
+						<img v-bind:src="item.image">
+					</a>
+				</div>
+
+				<div class="item">
+					<h4> {{item.name}} </h4>
+					<p class="seller">by {{item.seller}}</p>
+					<p class="status available" v-if="item.isAvailable">ın stock</p>
+					<p class="shipping" v-if="item.isEligible">Eligible for free shipping &FREE returns</p>
+					<a href="#" v-on:click="removeFromSavedList(index)">Delete</a>
+					<a href="#" class="secondary" v-on:click="moveToCart(index)">Move to card	</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body> 
+</html>

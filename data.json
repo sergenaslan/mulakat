@@ -1,0 +1,30 @@
+{
+  "cart": [
+    {
+      "url": "#",
+      "image": "./images/saatbir.jpg",
+      "name": "Apple Apple Watch Series 3 (GPS)",
+      "seller": "Serdar Büyüktemiz",
+     "isAvailable ": true,
+      "isEligible":true
+    },
+    {
+      "url": "#",
+      "image": "./images/saatiki.jpg",
+      "name": "Apple Watch Band Milanese Loop",
+      "seller": "Sergen aslan",
+      "isAvailable": true,
+      "isEligible": false
+    }
+  ],
+  "saved": [
+    {
+      "url": "https://www.amazon.com/gp/product/B0142CCDT2/ref=ox_sc_act_image_1?ie=UTF8&psc=1&smid=A2VT4H683M5NNA",
+      "image": "./images/saatuc.jpg",
+      "name": "Apple Watch Hermès Series 3 Singl",
+      "seller": "Fatih Acet",
+      "isAvailable": true,
+      "isEligible": true
+    }
+  ]
+}
